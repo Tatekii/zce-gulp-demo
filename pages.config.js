@@ -1,5 +1,5 @@
-module.exports = {
-	title:'我改了你就刷新!',
+exports.data = {
+	title: "我改了你就刷新!",
 	menus: [
 		{
 			name: "主页啦啦啦",
@@ -36,6 +36,6 @@ module.exports = {
 			],
 		},
 	],
-	pkg: require("../package.json"),
+	pkg: require("./package.json"),
 	date: new Date(),
 };

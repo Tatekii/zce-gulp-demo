@@ -6,32 +6,15 @@
   "author": "zce <w@zce.me> (https://zce.me)",
   "license": "MIT",
   "scripts": {
-    "clean": "gulp clean",
-    "build": "gulp build",
-    "develop": "gulp develop"
+    "clean": "s-pages clean",
+    "build": "s-pages build",
+    "develop": "s-pages develop"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "node-fetch": "2",
-    "popper.js": "^1.15.0",
-    "sass": "^1.50.0"
+    "popper.js": "^1.15.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "browser-sync": "^2.26.7",
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-load-plugins": "^2.0.1",
-    "gulp-sass": "^5.1.0",
-    "gulp-swig": "^0.9.1",
-    "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^3.1.6"
   }
 }
